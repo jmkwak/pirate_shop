@@ -1,0 +1,570 @@
+<!--created by James Kwak, 9/24/18 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ETCH A SKETCH PROJECT</title>
+  <link href="style/reset.css" rel="stylesheet" type="text/css">
+  <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+<body>
+  <h1 class="title">"the pirate shop"
+    <p>our starwars movies are cheap AND legal(sort of)!</p>
+  </h1>
+  <div class="movies">
+    <h2 id="h21">
+      <img id="img1" src="img/iv.jpg" width="250" height="350" alt="ivlogo"></img>
+
+      <p id="p1">starwars episode iv
+        </br>
+        <div class="cart">
+          <button id="b1">blu-ray add to cart     $25</button>
+          <button id="b11">dvd add to cart     $20</button>
+        </div>
+
+      </p>
+    </h2>
+    <h2 id="h22">
+      <img id="img2" src="img/v.jpg" width="250" height="350" alt="vlogo"></img>
+
+      <p id="p2">starwars episode v
+        </br>
+        <div class="cart2">
+          <button id="b2">blu-ray add to cart     $25</button>
+          <button id="b22">dvd add to cart     $20</button>
+        </div>
+      </p>
+    </h2>
+    <h2 id="h23">
+      <img id="img3" src="img/vi.jpg" width="250" height="350" alt="vilogo"></img>
+
+      <p id="p3">starwars episode vi
+        </br>
+        <div class="cart3">
+          <button id="b3">blu-ray add to cart     $25</button>
+          <button id="b33">dvd add to cart     $20</button>
+        </div>
+      </p>
+    </h2>
+  </div>
+
+  <div class="shopping-cart">
+    <!--title-->
+    <div class="shopping-title">
+      shopping cart
+      </br></br>
+      <span class="total-qty">total quantity: </span>
+      </br>
+      <span class="total-cost">total cost: $</span>
+    </div>
+    <!--product-->
+    <div class="cart-item">
+      <div class="cart-buttons">
+        <span class="delete-bin">
+          <img src="img/trashcan.jpg" alt="" />
+        </span>
+      </div>
+      <div class="product-img">
+        <img src="img/iv.jpg" alt="" />
+      </div>
+      <div class="item-descr">
+        <span id="descr1">starwars episode iv blu-ray</span>
+        <span id="descr2"></span>
+      </div>
+      <div class="quantity">
+        <button class="plus-btn" type="button" name="button"> +</button>
+        <input id="item1" type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button"> -</button>
+      </div>
+      <div class="total-price">$25</div>
+    </div>
+
+
+    <div class="cart-item2">
+      <div class="cart-buttons">
+        <span class="delete-bin2">
+          <img src="img/trashcan.jpg" alt="" />
+        </span>
+      </div>
+      <div class="product-img">
+        <img src="img/iv.jpg" alt="" />
+      </div>
+      <div class="item-descr">
+        <span id="descr1">starwars episode iv dvd</span>
+        <span id="descr2"></span>
+      </div>
+      <div class="quantity">
+        <button class="plus-btn2" type="button" name="button">+</button>
+        <input id="item2" type="text" name="name" value="1">
+        <button class="minus-btn2" type="button" name="button">-</button>
+      </div>
+      <div class="total-price">$20</div>
+    </div>
+
+    <div class="cart-item3">
+      <div class="cart-buttons">
+        <span class="delete-bin3">
+          <img src="img/trashcan.jpg" alt="" />
+        </span>
+      </div>
+      <div class="product-img">
+        <img src="img/v.jpg" alt="" />
+      </div>
+      <div class="item-descr">
+        <span id="descr1">starwars episode v blu-ray</span>
+        <span id="descr2"></span>
+      </div>
+      <div class="quantity">
+        <button class="plus-btn3" type="button" name="button">+</button>
+        <input id="item3" type="text" name="name" value="1">
+        <button class="minus-btn3" type="button" name="button">-</button>
+      </div>
+      <div class="total-price">$25</div>
+    </div>
+
+    <div class="cart-item4">
+      <div class="cart-buttons">
+        <span class="delete-bin4">
+          <img src="img/trashcan.jpg" alt="" />
+        </span>
+      </div>
+      <div class="product-img">
+        <img src="img/v.jpg" alt="" />
+      </div>
+      <div class="item-descr">
+        <span id="descr1">starwars episode v dvd</span>
+        <span id="descr2"></span>
+      </div>
+      <div class="quantity">
+        <button class="plus-btn4" type="button" name="button">+</button>
+        <input id="item4" type="text" name="name" value="1">
+        <button class="minus-btn4" type="button" name="button">-</button>
+      </div>
+      <div class="total-price">$20</div>
+    </div>
+
+    <div class="cart-item5">
+      <div class="cart-buttons">
+        <span class="delete-bin5">
+          <img src="img/trashcan.jpg" alt="" />
+        </span>
+      </div>
+      <div class="product-img">
+        <img src="img/vi.jpg" alt="" />
+      </div>
+      <div class="item-descr">
+        <span id="descr1">starwars episode vi blu-ray</span>
+        <span id="descr2"></span>
+      </div>
+      <div class="quantity">
+        <button class="plus-btn5" type="button" name="button">+</button>
+        <input id="item5" type="text" name="name" value="1">
+        <button class="minus-btn5" type="button" name="button">-</button>
+      </div>
+      <div class="total-price">$25</div>
+    </div>
+
+    <div class="cart-item6">
+      <div class="cart-buttons">
+        <span class="delete-bin6">
+          <img src="img/trashcan.jpg" alt="" />
+        </span>
+      </div>
+      <div class="product-img">
+        <img src="img/vi.jpg" alt="" />
+      </div>
+      <div class="item-descr">
+        <span id="descr1">starwars episode vi dvd</span>
+        <span id="descr2"></span>
+      </div>
+      <div class="quantity">
+        <button class="plus-btn6" type="button" name="button">+</button>
+        <input id="item6" type="text" name="name" value="1">
+        <button class="minus-btn6" type="button" name="button">-</button>
+      </div>
+      <div class="total-price">$20</div>
+    </div>
+  <script>
+
+  //start the program by disabling the cart items from showing
+  document.querySelector('.cart-item').style.display = 'none';
+  document.querySelector('.cart-item2').style.display = 'none';
+  document.querySelector('.cart-item3').style.display = 'none';
+  document.querySelector('.cart-item4').style.display = 'none';
+  document.querySelector('.cart-item5').style.display = 'none';
+  document.querySelector('.cart-item6').style.display = 'none';
+
+
+  //main page button actions
+  //upon clicking add to cart, add the correct item to cart
+  let TOTAL = 0;
+  let QTY = 0;
+  let started = false;
+  let visited = false;
+  let visited2 = false;
+  let visited3 = false;
+  let visited4 = false;
+  let visited5 = false;
+  let visited6 = false;
+  document.querySelector('#b1').addEventListener('click', function() {
+    if(!visited) {
+      ++QTY;
+      (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+      document.querySelector('.cart-item').style.display = 'flex';
+
+
+      let tempCost = 25;
+      let newCost = calcTotal(1, tempCost, TOTAL);
+      TOTAL = newCost;
+      displayTotal(TOTAL, started);
+    }
+    visited = true;
+    started = true;
+  });
+
+  document.querySelector('#b11').addEventListener('click', function() {
+    if(!visited2) {
+      ++QTY;
+      (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+      document.querySelector('.cart-item2').style.display = 'flex';
+
+      let tempCost = 20;
+      let newCost = calcTotal(1, tempCost, TOTAL);
+      TOTAL = newCost;
+      displayTotal(TOTAL, started);
+    }
+    visited2 = true;
+    started = true;
+  });
+
+  document.querySelector('#b2').addEventListener('click', function() {
+    if(!visited3) {
+      ++QTY;
+      (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+      document.querySelector('.cart-item3').style.display = 'flex';
+
+      let tempCost = 25;
+      let newCost = calcTotal(1, tempCost, TOTAL);
+      TOTAL = newCost;
+      displayTotal(TOTAL, started);
+    }
+    visited3 = true;
+    started = true;
+  });
+
+  document.querySelector('#b22').addEventListener('click', function() {
+    if(!visited4) {
+      ++QTY;
+      (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+      document.querySelector('.cart-item4').style.display = 'flex';
+
+      let tempCost = 20;
+      let newCost = calcTotal(1, tempCost, TOTAL);
+      TOTAL = newCost;
+      displayTotal(TOTAL, started);
+    }
+    visited4 = true;
+    started = true;
+  });
+
+  document.querySelector('#b3').addEventListener('click', function() {
+    if(!visited5) {
+      ++QTY;
+      (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+      document.querySelector('.cart-item5').style.display = 'flex';
+
+      let tempCost = 25;
+      let newCost = calcTotal(1, tempCost, TOTAL);
+      TOTAL = newCost;
+      displayTotal(TOTAL, started);
+    }
+    visited5 = true;
+    started = true;
+  });
+
+  document.querySelector('#b33').addEventListener('click', function() {
+    if(!visited6) {
+      ++QTY;
+      (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+      document.querySelector('.cart-item6').style.display = 'flex';
+
+      let tempCost = 20;
+      let newCost = calcTotal(1, tempCost, TOTAL);
+      TOTAL = newCost;
+      displayTotal(TOTAL, started);
+    }
+    visited6 = true;
+    started = true;
+  });
+
+  //shopping cart button actions
+  //plus and minus
+  let count = 1;
+  let count2 = 1;
+  let count3 = 1;
+  let count4 = 1;
+  let count5 = 1;
+  let count6 = 1;
+
+
+  //plus btn for increasing item quantity
+  document.querySelector('.plus-btn').addEventListener('click', function() {
+    ++QTY;
+    ++count;
+    countQty(QTY);
+    document.querySelector('#item1').value = count;
+
+    let tempCost = 25;
+    let newCost = calcTotal(1, tempCost, TOTAL);
+    TOTAL = newCost;
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.plus-btn2').addEventListener('click', function() {
+    ++QTY;
+    ++count2;
+    countQty(QTY);
+    document.querySelector('#item2').value = count2;
+
+    let tempCost = 20;
+    let newCost = calcTotal(1, tempCost, TOTAL);
+    TOTAL = newCost;
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.plus-btn3').addEventListener('click', function() {
+    ++QTY;
+    ++count3;
+    countQty(QTY);
+    document.querySelector('#item3').value = count3;
+
+    let tempCost = 25;
+    let newCost = calcTotal(1, tempCost, TOTAL);
+    TOTAL = newCost;
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.plus-btn4').addEventListener('click', function() {
+    ++QTY;
+    ++count4;
+    countQty(QTY);
+    document.querySelector('#item4').value = count4;
+
+    let tempCost = 20;
+    let newCost = calcTotal(1, tempCost, TOTAL);
+    TOTAL = newCost;
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.plus-btn5').addEventListener('click', function() {
+    ++QTY;
+    ++count5;
+    countQty(QTY);
+    document.querySelector('#item5').value = count5;
+
+    let tempCost = 25;
+    let newCost = calcTotal(1, tempCost, TOTAL);
+    TOTAL = newCost;
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.plus-btn6').addEventListener('click', function() {
+    ++QTY;
+    ++count6;
+    countQty(QTY);
+    document.querySelector('#item6').value = count6;
+
+    let tempCost = 20;
+    let newCost = calcTotal(1, tempCost, TOTAL);
+    TOTAL = newCost;
+    displayTotal(TOTAL, started);
+  });
+
+
+  //minus button for decreasing item quantity
+  document.querySelector('.minus-btn').addEventListener('click', function() {
+    --QTY;
+    --count;
+    countQty(QTY);
+    document.querySelector('#item1').value = count;
+
+    let tempCost = 25;
+    TOTAL = calcTotal(-1, tempCost, TOTAL);
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.minus-btn2').addEventListener('click', function() {
+    --QTY;
+    --count2;
+    countQty(QTY);
+    document.querySelector('#item2').value = count2;
+
+    let tempCost = 20;
+    TOTAL = calcTotal(-1, tempCost, TOTAL);
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.minus-btn3').addEventListener('click', function() {
+    --QTY;
+    --count3;
+    countQty(QTY);
+    document.querySelector('#item3').value = count3;
+
+    let tempCost = 25;
+    TOTAL = calcTotal(-1, tempCost, TOTAL);
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.minus-btn4').addEventListener('click', function() {
+    --QTY;
+    --count4;
+    countQty(QTY);
+    document.querySelector('#item4').value = count4;
+
+    let tempCost = 20;
+    TOTAL = calcTotal(-1, tempCost, TOTAL);
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.minus-btn5').addEventListener('click', function() {
+    --QTY;
+    --count5;
+    countQty(QTY);
+    document.querySelector('#item5').value = count5;
+
+    let tempCost = 25;
+    TOTAL = calcTotal(-1, tempCost, TOTAL);
+    displayTotal(TOTAL, started);
+  });
+  document.querySelector('.minus-btn6').addEventListener('click', function() {
+    --QTY;
+    --count6;
+    countQty(QTY);
+    document.querySelector('#item6').value = count6;
+
+    let tempCost = 20;
+    TOTAL = calcTotal(-1, tempCost, TOTAL);
+    displayTotal(TOTAL, started);
+  });
+
+
+  //remove item from cart
+  document.querySelector('.delete-bin').addEventListener('click', function() {
+
+    //get current item count and decrement
+    let currCount = document.querySelector('#item1').value;
+    QTY -= currCount;
+    (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+    helperRemove('.cart-item', QTY);
+
+    TOTAL = calcTotal(-currCount, 25, TOTAL);
+    displayTotal(TOTAL, started);
+    visited = false;
+  });
+  document.querySelector('.delete-bin2').addEventListener('click', function() {
+    let currCount = document.querySelector('#item2').value;
+    QTY -= currCount;
+    (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+    helperRemove('.cart-item2', QTY);
+    TOTAL = calcTotal(-currCount, 20, TOTAL);
+    displayTotal(TOTAL, started);
+    visited2 = false;
+  });
+  document.querySelector('.delete-bin3').addEventListener('click', function() {
+    let currCount = document.querySelector('#item3').value;
+    QTY -= currCount;
+    (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+    helperRemove('.cart-item3', QTY);
+    TOTAL = calcTotal(-currCount, 25, TOTAL);
+    displayTotal(TOTAL, started);
+    visited3 = false;
+  });
+  document.querySelector('.delete-bin4').addEventListener('click', function() {
+    let currCount = document.querySelector('#item4').value;
+    QTY -= currCount;
+    (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+    helperRemove('.cart-item4', QTY);
+    TOTAL = calcTotal(-currCount, 20, TOTAL);
+    displayTotal(TOTAL, started);
+    visited4 = false;
+  });
+  document.querySelector('.delete-bin5').addEventListener('click', function() {
+    let currCount = document.querySelector('#item5').value;
+    QTY -= currCount;
+    (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+    helperRemove('.cart-item5', QTY);
+    TOTAL = calcTotal(-currCount, 25, TOTAL);
+    displayTotal(TOTAL, started);
+    visited5 = false;
+  });
+  document.querySelector('.delete-bin6').addEventListener('click', function() {
+    let currCount = document.querySelector('#item6').value;
+    QTY -= currCount;
+    (QTY > 1) ? countQty(QTY) : firstTimeQty(QTY);
+    helperRemove('.cart-item6', QTY);
+    TOTAL = calcTotal(-currCount, 20, TOTAL);
+    displayTotal(TOTAL, started);
+    visited6 = false;
+  });
+
+//calculate new total quantity and display it on page
+  function countQty(update) {
+    let currQty = document.querySelector('.total-qty');
+
+    let toRemove = document.querySelector('.temp');
+    currQty.removeChild(toRemove);
+
+    let temp = document.createElement('span');
+    temp.classList.add("temp");
+    temp.textContent = update;
+    temp.style.cssText = 'color: red';
+
+    currQty.appendChild(temp);
+  }
+
+  //same function as above without remove
+  //there is no need to remove span the firstime updating quantity
+  function firstTimeQty(update) {
+    let currQty = document.querySelector('.total-qty');
+    let temp = document.createElement('span');
+    temp.classList.add("temp");
+    temp.textContent = update;
+    temp.style.cssText = 'color: red';
+
+    currQty.appendChild(temp);
+  }
+
+//calculate new total cost
+  function calcTotal(update, cost, total) {
+    let newTotal = total + cost * update;
+    return newTotal;
+  }
+
+//display new total cost on page
+  function displayTotal(totalCost, visit) {
+    let currTotal = document.querySelector('.total-cost');
+
+    if(visit) {
+      let toRemove = document.querySelector('.totes');
+      currTotal.removeChild(toRemove);
+    }
+
+    let toAdd = document.createElement('span');
+    toAdd.classList.add("totes");
+    toAdd.textContent = totalCost;
+    toAdd.style.cssText = 'color: red';
+
+    currTotal.appendChild(toAdd);
+  }
+
+//helper for removing and checking
+  function helperRemove(itemToRemove, quantity) {
+    if(quantity == 1 || quantity == 0) {
+      let currQty = document.querySelector('.total-qty');
+      let toRemove = document.querySelector('.temp');
+      currQty.removeChild(toRemove);
+    }
+    removeItem(itemToRemove);
+  }
+
+//remove item from cart with the trash icon
+  function removeItem(itemToRemove) {
+      document.querySelector(itemToRemove).style.display = 'none';
+  }
+
+
+  </script>
+</body>
+</html>

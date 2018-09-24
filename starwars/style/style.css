@@ -1,0 +1,396 @@
+body {
+  background-color: rgb(255, 161, 147);
+  font-family: 'Playfair Display', serif;
+
+}
+
+.title {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  vertical-align: middle;
+}
+
+.title p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.movies {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  transform: scale(0.8);
+  flex-direction: column;
+  justify-content: center;
+}
+
+#p1 {
+  padding: 10px;
+}
+
+#p2 {
+  padding: 10px;
+}
+
+#p3 {
+  padding: 10px;
+}
+
+#img2 {
+  padding-top: 50px;
+}
+
+#img3 {
+  padding-top: 50px;
+}
+
+.cart {
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  float: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cart2 {
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  float: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cart3 {
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  float: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+#b1 {
+  font-size: 15px;
+  padding: 7px;
+  margin: 8px;
+  background-color: #e7e7e7;
+  border-radius: 12px;
+}
+
+#b11 {
+  font-size: 15px;
+  padding: 7px;
+  margin: 8px;
+  background-color: #e7e7e7;
+  border-radius: 12px;
+}
+
+
+#b2 {
+  font-size: 15px;
+  padding: 7px;
+  margin: 8px;
+  background-color: #e7e7e7;
+  border-radius: 12px;
+}
+
+#b22 {
+  font-size: 15px;
+  padding: 7px;
+  margin: 8px;
+  background-color: #e7e7e7;
+  border-radius: 12px;
+}
+
+#b3 {
+  font-size: 15px;
+  padding: 7px;
+  margin: 8px;
+  background-color: #e7e7e7;
+  border-radius: 12px;
+}
+
+#b33 {
+  font-size: 15px;
+  padding: 7px;
+  margin: 8px;
+  background-color: #e7e7e7;
+  border-radius: 12px;
+}
+
+.shopping-cart {
+  width: 750px;
+  height: 850px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.total-cost, .total-qty {
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.cart-item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+.cart-item2 {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+.cart-item3 {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+.cart-item4 {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+.cart-item5 {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+.cart-item6 {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+
+.cart-item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+
+.cart-buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+
+.delete-bin {
+  display: inline-block;
+  Cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+.delete-bin img {
+  width: 30px;
+  height: auto;
+}
+.delete-bin2 {
+  display: inline-block;
+  Cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+.delete-bin2 img {
+  width: 30px;
+  height: auto;
+}
+.delete-bin3 {
+  display: inline-block;
+  Cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+.delete-bin3 img {
+  width: 30px;
+  height: auto;
+}
+.delete-bin4 {
+  display: inline-block;
+  Cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+.delete-bin4 img {
+  width: 30px;
+  height: auto;
+}
+.delete-bin5 {
+  display: inline-block;
+  Cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+.delete-bin5 img {
+  width: 30px;
+  height: auto;
+}
+.delete-bin6 {
+  display: inline-block;
+  Cursor: pointer;
+  width: 18px;
+  height: 17px;
+  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+.delete-bin6 img {
+  width: 30px;
+  height: auto;
+}
+
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+
+.product-img img {
+  width: 4em;
+  height: auto;
+  padding-right: 10px;
+}
+
+.item-descr {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+
+.item-descr span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+
+.item-descr span:first-child {
+  margin-bottom: 5px;
+}
+
+.item-descr span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+
+.quantity button {
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.minus-btn {
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+.minus-btn2 {
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+.minus-btn3 {
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+.minus-btn4 {
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+.minus-btn5 {
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+.minus-btn6 {
+  margin-bottom: 3px;
+  font-size: 17px;
+}
+
+.plus-btn {
+  margin-top: 2px;
+}
+.plus-btn2 {
+  margin-top: 2px;
+}
+.plus-btn3 {
+  margin-top: 2px;
+}
+.plus-btn4 {
+  margin-top: 2px;
+}
+.plus-btn5 {
+  margin-top: 2px;
+}
+.plus-btn6 {
+  margin-top: 2px;
+}
+
+button:focus,
+input:focus {
+  outline:0;
+}
+
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
